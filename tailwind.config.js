@@ -6,7 +6,13 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'second-bg': "url('../components/img/shahadat-rahman-BfrQnKBulYQ-unsplash-min.jpg')",
+        'first-bg': "url('../components/img/farzad-p-xSl33Wxyc-unsplash-min.jpg')",
+        'third-bg': "url('./components/img/marvin-meyer-SYTO3xs06fU-unsplash-min.jpg')",
+      }
+    },
   },
   plugins: [],
 }
