@@ -4,7 +4,7 @@ import d_tp from "./img/dell-4Ea0P4IsZ_4-unsplash-min.jpg";
 
 const HeroTop = () => {
   return (
-    <div className="bg-first-bg w-full h-screen bg-cover bg-no-repeat bg-center">
+    <div className="bg-first-bg w-full h-screen bg-cover bg-no-repeat bg-center mb-[50vh] md:mb-0">
       <div className="w-full h-full bg-black/80 flex justify-center items-center gap-8 text-gray-300 flex-col lg:flex-row px-4">
         <div className="w-fit lg:w-auto mx-auto lg:mx-0">
           {/* // nmae and what i do go here */}
