@@ -16,9 +16,7 @@ import IconStack from "./iconStack";
 const TtechStack = () => {
   return (
     <div className="bg-black/95 py-8">
-      <h2 className="text-5xl lg:text-7xl text-center font-bold text-gray-400">
-        Tech Stack
-      </h2>
+      <h2 className="subheading">Tech Stack</h2>
       <div className="w-full px-4 py-6 flex flex-wrap justify-between items-center gap-4 my-8">
         <IconStack
           icon={<IconLogoJavascript className="text-[#f7df1e]" />}
