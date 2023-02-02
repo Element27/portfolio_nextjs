@@ -11,6 +11,7 @@ module.exports = {
         'second-bg': "url('../components/img/shahadat-rahman-BfrQnKBulYQ-unsplash-min.jpg')",
         'first-bg': "url('../components/img/farzad-p-xSl33Wxyc-unsplash-min.jpg')",
         'third-bg': "url('./components/img/marvin-meyer-SYTO3xs06fU-unsplash-min.jpg')",
+        'fourth-bg': "url('../components/img/dell.jpg')",
       }
     },
   },

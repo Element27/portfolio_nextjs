@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import d_tp from "./img/dell-4Ea0P4IsZ_4-unsplash-min.jpg";
+import d_tp from "./img/dell.jpg";
 
 const HeroTop = () => {
   return (
