@@ -4,6 +4,7 @@ import {
   IconAirballoon,
   IconBxlCss3,
   IconFiletypeScss,
+  IconGit,
   IconHtml5,
   IconLogoJavascript,
   IconNextjs,
@@ -18,7 +19,7 @@ const TtechStack = () => {
   return (
     <div className="bg-black/95 py-8 border-t-8 border-blue-600">
       <h2 className="subheading">Tech Stack</h2>
-      <div className="w-full px-4 py-6 flex flex-wrap justify-between items-center gap-4 my-8">
+      <div className="w-full px-4 py-6 flex flex-wrap justify-center items-center gap-6 my-8">
         <IconStack
           icon={<IconLogoJavascript className="text-[#f7df1e]" />}
           title="JavaScript"
@@ -55,6 +56,7 @@ const TtechStack = () => {
           icon={<IconHtml5 className="text-[#D84924]" />}
           title="HTML5"
         />
+        <IconStack icon={<IconGit className="text-[#f14e32]" />} title="Git" />
         <IconStack
           icon={<IconAirballoon className="text-[#5C9F06]" />}
           title="CorelDraw"

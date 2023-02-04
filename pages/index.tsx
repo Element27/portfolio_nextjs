@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Footer from "../components/Footer";
 // import Image from "next/image";
 import Parallax from "../components/parallax";
 import Portfolio from "../components/Portfolio";
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
         <Parallax />
         <Portfolio />
         <TtechStack />
+        <Footer />
       </main>
     </div>
   );
