@@ -4,9 +4,9 @@ import IconStack from "./iconStack";
 // bg-[#dc3956]
 const Footer = () => {
   return (
-    <div className="min-h-[30vh] w-full  bg-gray-900  p-4">
+    <div className="min-h-[30vh] w-full  bg-gray-900 p-2  md:p-4">
       <h2 className="subheading mb-6">Links</h2>
-      <div className="flex flex-wrap items-center justify-center gap-6">
+      <div className="w-full px-2 md:px-4 py-6 flex flex-wrap justify-center items-center gap-2 md:gap-6 my-8">
         <IconStack
           icon={<IconGithub className="text-[#c9510c]" />}
           title="Github"
