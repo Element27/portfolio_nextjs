@@ -5,7 +5,7 @@ import IconStack from "./iconStack";
 const Footer = () => {
   return (
     <div className="min-h-[30vh] w-full  bg-gray-900  p-4">
-      <h2 className="subheading mb-6">Links:</h2>
+      <h2 className="subheading mb-6">Links</h2>
       <div className="flex flex-wrap items-center justify-center gap-6">
         <IconStack
           icon={<IconGithub className="text-[#c9510c]" />}
@@ -20,6 +20,7 @@ const Footer = () => {
           title="Hashnode"
         />
       </div>
+      {/* <span>built by me for me...</span> */}
     </div>
   );
 };

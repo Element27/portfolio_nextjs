@@ -19,7 +19,7 @@ const TtechStack = () => {
   return (
     <div className="bg-black/95 py-8 border-t-8 border-blue-600">
       <h2 className="subheading">Tech Stack</h2>
-      <div className="w-full px-4 py-6 flex flex-wrap justify-center items-center gap-6 my-8">
+      <div className="w-full px-2 md:px-4 py-6 flex flex-wrap justify-center items-center gap-2 md:gap-6 my-8">
         <IconStack
           icon={<IconLogoJavascript className="text-[#f7df1e]" />}
           title="JavaScript"
@@ -38,7 +38,7 @@ const TtechStack = () => {
         />
         <IconStack
           icon={<IconRedux className="text-[#00d8ff]" />}
-          title="React Redux"
+          title="Redux"
         />
         <IconStack
           icon={<IconBxlCss3 className="text-[#2449D8]" />}
