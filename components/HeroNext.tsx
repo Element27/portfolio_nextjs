@@ -36,7 +36,7 @@ const HeroNext = () => {
             time, Daniel plays Scrabble, Chess and Sodoku fun.
           </p>
         </div>
-        <button className="border border-[#dc3956] py-4 px-12 my-4 mx-auto rounded hover:bg-[#dc3956] hover:font-semibold text-white">
+        <button className="border border-[#dc3956] py-4 px-12 my-4 mx-auto rounded hover:bg-[#dc3956] hover:font-semibold text-white  hover:animate-pulse">
           Download CV
         </button>
       </div>

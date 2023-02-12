@@ -4,6 +4,6 @@
 
 @layer components {
   .subheading {
-    @apply text-5xl lg:text-7xl text-center font-bold text-gray-400;
+    @apply text-5xl lg:text-7xl text-center font-bold text-gray-400 animate-pulse;
   }
 }
