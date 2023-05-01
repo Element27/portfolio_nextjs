@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import d_tp from "./img/dell.jpg";
+// import d_tp from "./img/dell.jpg";
+import pp from "./img/Daniel Akinbo.jpg";
 
 import { motion } from "framer-motion";
 
@@ -24,7 +25,7 @@ const HeroTop = () => {
             Daniel <span className="text-[#dc3956]">Akinbo</span>
           </h2>
           <h3 className="text-base font-semibold md:font-normal md:text-lg">
-            Frontend Developer, Technical Writer, Graphics Designer
+            Frontend Developer with touch of Backend Technologies
           </h3>
         </motion.div>
         <motion.div
@@ -39,7 +40,7 @@ const HeroTop = () => {
           }}
         >
           {/* dp image goes here */}
-          <Image src={d_tp} alt="" className="w-52 h-52 md:w-64 md:h-64" />
+          <Image src={pp} alt="" className="w-52 h-52 md:w-64 md:h-64" />
         </motion.div>
       </div>
     </div>

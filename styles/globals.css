@@ -6,4 +6,11 @@
   .subheading {
     @apply text-5xl lg:text-7xl text-center font-bold text-gray-400 animate-pulse;
   }
+  .subheading_h3 {
+    @apply text-3xl lg:text-5xl font-bold text-gray-400 animate-pulse;
+  }
+
+  .border_b_gradient {
+    @apply bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500;
+  }
 }
